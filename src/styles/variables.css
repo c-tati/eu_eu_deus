@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  /* Cores Principais (Tema Claro) */
+  --color-bg-primary: #FAF6F0;      /* Bege suave acolhedor */
+  --color-bg-card: #FFFFFF;         /* Branco puro para superfícies */
+  --color-bg-navbar: rgba(250, 246, 240, 0.85); /* Translúcido claro */
+  --color-text-primary: #3C2F2F;    /* Castanho escuro para alta leitura sem cansaço */
+  --color-text-secondary: #6D5D5D;  /* Castanho médio para metadados/descrições */
+  --color-text-muted: #9E8E8E;      /* Castanho claro acinzentado para textos discretos */
+  
+  /* Cores de Acento */
+  --color-accent-gold: #D4AF37;     /* Dourado discreto */
+  --color-accent-gold-hover: #B89320;
+  --color-accent-gold-light: #F7EFCF;
+  
+  --color-accent-olive: #8F9E8B;    /* Verde oliva para paz e esperança */
+  --color-accent-olive-hover: #788775;
+  --color-accent-olive-light: #E9EFE7;
+  
+  --color-accent-terracotta: #C07A65; /* Terracota opcional para avisos/detalhes */
+  --color-accent-terracotta-light: #F7EAE6;
+
+  /* Botões */
+  --color-btn-text-primary: #FFFFFF;
+
+  /* Bordas e Sombras */
+  --border-color: #EFE9DE;
+  --border-radius-sm: 8px;
+  --border-radius-md: 16px;
+  --border-radius-lg: 24px;
+  
+  --shadow-sm: 0 2px 8px rgba(60, 47, 47, 0.03);
+  --shadow-md: 0 8px 24px rgba(60, 47, 47, 0.05);
+  --shadow-lg: 0 16px 40px rgba(60, 47, 47, 0.08);
+
+  /* Fontes */
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Playfair Display', 'Lora', Georgia, serif;
+  --font-scripture: 'Lora', Georgia, serif;
+
+  /* Transições e Animações */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Modo Escuro Premium */
+[data-theme="dark"] {
+  /* Cores Principais */
+  --color-bg-primary: #0C0A0A;      /* Obsidiana / Espresso profundo (conforto extremo) */
+  --color-bg-card: #151211;         /* Cartão café escuro e fosco */
+  --color-bg-navbar: rgba(12, 10, 10, 0.85); /* Translúcido escuro */
+  --color-text-primary: #FAF6F0;    /* Linho bege claro para contraste suave */
+  --color-text-secondary: #D4C9C3;  /* Cinza-areia para descrições */
+  --color-text-muted: #9E8F88;      /* Cinza-castanho discreto para legendas */
+  
+  /* Cores de Acento Adaptadas para o Escuro */
+  --color-accent-gold: #ECC859;     /* Dourado brilhante para melhor legibilidade */
+  --color-accent-gold-hover: #CFA632;
+  --color-accent-gold-light: rgba(236, 200, 89, 0.08); /* Aura de brilho dourado */
+  
+  --color-accent-olive: #A4BBA0;    /* Verde oliva suave */
+  --color-accent-olive-hover: #869D82;
+  --color-accent-olive-light: rgba(164, 187, 160, 0.08);
+  
+  --color-accent-terracotta: #CD8772;
+  --color-accent-terracotta-light: rgba(205, 135, 114, 0.08);
+
+  /* Botões */
+  --color-btn-text-primary: #12100E; /* Texto escuro em botões dourados para alta leitura */
+
+  /* Bordas e Sombras do Modo Escuro */
+  --border-color: #241F1D;          /* Bordas integradas no tom de café escuro */
+  
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.7);
+}
